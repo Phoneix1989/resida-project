@@ -16,8 +16,8 @@ const subHeroSection = () => {
             style={{
                 backgroundColor: '#DBA94D',
                 color: '#1F4B43',
-                padding: "7px 12px",
-                width: "227px"
+                padding: " 8px",
+                width: "185px"
             }}btnName={'Download our app'}
             rightIcon={<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3344_194)">
