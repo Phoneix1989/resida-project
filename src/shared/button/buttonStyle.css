@@ -1,0 +1,55 @@
+.outline{
+    border: 1px solid #1F4b43;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    padding: 12px;
+    background-color: transparent;
+    font-size: 13px;
+    color: #1F4b43;
+    cursor: pointer;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.outline:hover, .btn:hover {
+    opacity: 0.7;
+}
+
+.btn{
+    border: 1px solid transparent;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    padding: 12px;
+    background-color: #1F4b43;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.right_icon, .left_icon {
+    margin-top: 4px;
+}
+
+
+@media (max-width: 841px) {
+    .btn,
+    .outline {
+        padding: 10px;
+        font-size: 11px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
