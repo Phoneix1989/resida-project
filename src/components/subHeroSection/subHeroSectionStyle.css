@@ -1,12 +1,11 @@
 .sub_hero_section_container {
     height: 236px;
-    background-color: #1F4B43;
     display: flex;
-    /* overflow: hidden; */
     color: #ffffff;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 10rem;
+    align-items: center;
+    background-color: #1F4B43;
+    justify-content: space-between;
 }
 
 .sub_hero_text {
@@ -15,11 +14,11 @@
 
 @media (max-width: 841px) {
     .sub_hero_section_container {
+        gap: 12px;
+        padding: 0 2rem;
         overflow: hidden;
         flex-direction: column;
-        padding: 0 2rem;
         justify-content: center;
-        gap: 12px;
     }
 
     .sub_hero_text h1{

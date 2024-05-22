@@ -2,31 +2,29 @@
 .header_container {
     height: 8vh;
     display: flex;
+    padding: 0 10rem;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10rem;
 }
 
 .header_cta_section {
-    display: flex;
     gap: 24px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .header_cta_section ul li {
-    list-style: none;
-    text-decoration: none;
-    font-style: normal;
     font-size: 12px;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .header_cta_section ul li a{
+    font-size: 14;
     color: #1F4B43;
     text-decoration: none;
-    /* font-weight: normal; */
-    /* font-family: 'Courier New', Courier, manrope; */
-    font-size: 14;
     text-transform: capitalize;
 }
 
@@ -39,11 +37,11 @@
 }
 
 
-@media (max-width: 841px){
+@media (max-width: 841px) {
     .header_container{
+        padding: 0;
         width: 100vh;
         justify-content: space-between;
-        padding: 0;
     }
 
     .desktop_logo{
@@ -60,21 +58,26 @@
     }
 
     .header_cta_section{
+        gap: 10px;
         padding-right: 10px;
         flex-direction: row;
-        gap: 10px;
     }
 
     .header_cta_section ul {
         display: none;
     }
 
+
+
     .header_cta_section ul li a {
         font-size: 12px;
     }
-
-
+    
 }
+   
+
+
+
     
 
 

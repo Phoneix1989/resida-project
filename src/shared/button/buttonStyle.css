@@ -1,19 +1,19 @@
 .outline{
-    border: 1px solid #1F4b43;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 0;
+    gap: 12px;
     padding: 12px;
-    background-color: transparent;
-    font-size: 13px;
-    color: #1F4b43;
-    cursor: pointer;
-    font-weight: normal;
     display: flex;
+    font-size: 13px;
+    cursor: pointer;
+    color: #1F4b43;
+    font-weight: normal;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    border: 1px solid #1F4b43;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: transparent;
+    border-bottom-right-radius: 12px;
 }
 
 .outline:hover, .btn:hover {
@@ -21,21 +21,21 @@
 }
 
 .btn{
-    border: 1px solid transparent;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 0;
+    gap: 12px;
     padding: 12px;
-    background-color: #1F4b43;
-    font-size: 13px;
+    display: flex;
     color: white;
+    font-size: 13px;
     cursor: pointer;
     font-weight: normal;
-    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    background-color: #1F4b43;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 12px;
 }
 
 .right_icon, .left_icon {

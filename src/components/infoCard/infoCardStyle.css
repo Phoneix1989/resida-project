@@ -1,0 +1,142 @@
+.infoCard_container {
+    height: 60vh;
+    background-color: #ffffff;
+    overflow-y: hidden;
+}
+
+.infoCard_inner_container {
+    max-width: 75%; 
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+    height: 30vh;
+    
+}
+
+.infoCard_image {
+    width: full;
+    height: 70vh;
+    /* background-color: aquamarine; */
+
+}
+
+.infoCard_description {
+    width: full;
+    height: 70vh;
+    /* background-color: aqua; */
+}
+
+.infoCard_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    background: #fcfffc;
+}
+
+.infoCard_title {
+    margin: 0px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F4b43;
+    /* margin-bottom: 3px; */
+}
+
+.infoCard_subtitle {
+    color: #1F4B43;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.infoCard_body {
+    text-align: justify;
+    font-size: 16px;
+    color: #141115;
+    line-height: 1.5;
+}
+
+.image {
+    width: 105%;
+    height: 350px;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+@media (max-width: 841px) {
+    .infoCard_inner_container {
+        /* max-width: 75%; 
+        margin: 0px auto;
+        display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        /* padding: 0px;
+        height: 30vh; */
+        /* background-color: orange; */
+        
+    }
+
+    .image {
+        width: 100%;
+        height: 200px;
+        padding-top: 2rem;
+        /* padding-bottom: 4rem; */
+        padding-left: 1rem;
+        padding-right: 3rem;
+    }
+
+    .infoCard_container {
+        height: 100vh;
+        background-color: #ffffff;
+        overflow-x: hidden;
+    }
+
+    .infoCard_text {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        padding: 0px
+        /* background:  #fcfffc; */
+    }
+    .infoCard_title {
+        margin-top: 0px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #1F4b43;
+        /* margin-bottom: 3px; */
+    }
+
+    .infoCard_subtitle {
+        color: #1F4B43;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+
+    .infoCard_body {
+        text-align: justify;
+        font-size: 16px;
+        color: #141115;
+        line-height: 1.5;
+    }
+
+
+    .infoCard_description {
+        width: full;
+        height: 30vh;
+        /* background-color: aqua; */
+    }
+
+    .infoCard_image {
+        width: full;
+        height: 40vh;
+        /* background-color: aquamarine; */
+
+    }
+}

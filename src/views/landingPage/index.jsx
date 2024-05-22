@@ -3,6 +3,7 @@ import React from 'react';
 import Header from 'shared/header'
 import HeroSection from 'components/heroSection';
 import SubHeroSection from 'components/subHeroSection';
+import InfoCard from 'components/infoCard';
 
 
 const LandingPage = () => {
@@ -10,6 +11,7 @@ const LandingPage = () => {
     <Header />
     <HeroSection/>
     <SubHeroSection />
+    <InfoCard />
     </div>;
 };
 
