@@ -1,0 +1,17 @@
+.discover_container {
+    height: 352px;
+    background-image: url('/src/assets/discover-bg-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.discover_title p{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    padding: 10px;
+    padding-top: 3rem;
+}

@@ -1,0 +1,56 @@
+.fP_container {
+    height: 800px;
+}
+
+.fp_title{
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: -60px;
+    margin-top: 50px;
+}
+.fp_subtitle{
+    font-size: 21px;
+    color: #141115;
+    padding-bottom: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box_container {
+    gap: 12px;
+    margin-top: -70px;
+}
+
+.box1, .box2, .box3 {
+    width: 370px;
+    height: 450px;
+    /* flex-basis: 25%; */
+    /* margin-right: 7px; */
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+    margin-top: -35px;
+    border-radius: 20px;
+}
+
+.lpe_buttons_container{
+    gap: 13px;
+    padding-top: 20px;
+}
+
+.lpe_title{
+    display: flex;
+    padding-top: 0px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.lpe_value {
+    display: flex;
+    padding-top: 25px;
+    font-weight: 100;
+}

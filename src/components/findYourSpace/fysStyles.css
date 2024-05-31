@@ -1,0 +1,45 @@
+.fys_container {
+    height: 500px;
+    padding: 8 10rem;
+    background-image: url('/src/assets/fysbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fys_image_section,
+.fys_text_section {
+    flex-basis: 50%;
+}
+
+.fys_text_section{
+    text-align: left;
+    justify-content: start;
+    padding-left: 150px;
+}
+
+.fys_image_section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+.fys_text_section div p{
+    font-weight: bolder;
+    font-size: 33px;
+    color: #ffffff;
+    padding-right: 10rem;
+    margin: 0 0 1rem 0;
+}
+
+.fys_text_section div span{
+    font-weight: normal;
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.fys_button{
+    margin-top: 2rem;
+}
