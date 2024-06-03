@@ -13,6 +13,7 @@ import house from 'assets/house.svg'
 import Discover from 'components/discover';
 import Popular from 'components/popular';
 import OfficeSpace from 'components/officeSpace';
+import DownloadApp from 'components/downloadApp';
 
 
 
@@ -63,6 +64,7 @@ const LandingPage = () => {
     <Discover />
     <Popular />
     <OfficeSpace />
+    <DownloadApp />
     </div>;
 };
 

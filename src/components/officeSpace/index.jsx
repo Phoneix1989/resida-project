@@ -13,9 +13,9 @@ const OfficeSpace= () => {
                 <h2>{'Need an office space?'}</h2>
             </div>
             <div>
-                <p>'Seeking office space in Lagos? Look no further! Our accommodations 
+                <p> Seeking office space in Lagos? Look no further! Our accommodations 
                     offer tailored solutions to meet your workspace needs, ensuring 
-                    productivity and comfort in the heart of Lagos'</p>
+                    productivity and comfort in the heart of Lagos</p>
             </div>
         </section>
     </div>
