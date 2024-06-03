@@ -2,3 +2,78 @@
     width: 100%;
     height: 824px;
 }
+
+.popular_text h2 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #1F4b43;
+    margin-top: 4rem;
+}
+
+.popular_container p{
+    color: #141115;
+    margin-top: -10px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+
+.grid_container > div {
+    padding: 20px;
+    align-content: center;
+    
+  }
+
+.item1 {
+    grid-row: 1 / 3;
+    width: 324px;
+    border-radius: 16px;
+    margin-left: 50px;
+    height: 542px;
+  }
+
+.item2,
+.item4,
+.item3,
+.item5 {
+    margin-left: -70px;
+   
+}
+
+.item2,
+.item3,
+.item4,
+.item5 {
+    width: 324px;
+    height: 251px;
+    border-radius: 16px;
+    row-gap: 0px;
+    
+}
+
+.image1
+     {
+    width: 365px;
+    height: 580px;
+    margin-left: -20px;
+    /* object-fit: cover; */
+    border-radius: 16px;
+    margin-top: -20px;
+}
+
+.image2,
+.image3,
+.image4,
+.image5 {
+    width: 368px;
+    margin-left: -22px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+    padding: 0px;
+    margin-top: -16px;
+}
