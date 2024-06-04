@@ -14,6 +14,7 @@ import Discover from 'components/discover';
 import Popular from 'components/popular';
 import OfficeSpace from 'components/officeSpace';
 import DownloadApp from 'components/downloadApp';
+import Footer from 'shared/footer';
 
 
 
@@ -65,6 +66,7 @@ const LandingPage = () => {
     <Popular />
     <OfficeSpace />
     <DownloadApp />
+    <Footer />
     </div>;
 };
 
