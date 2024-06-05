@@ -1,27 +1,203 @@
-.footer-main{
-    height: 333px;
-    border: solid red;
-    /* background-color: #1f4b43;  */
-    padding: 10px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    border: solid blue;
-    height: 250px;
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-.grid-container > div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+.footer_container {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #1f4b43;
+  }
+  
+  .footer_inner_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px 0;
+  }
+  
+  .footer_section1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left_side_div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #dddddd;
+  }
+  
+  .left_side_div h5 {
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #fff;
+    margin-top: -50px;
+    margin-bottom: -4px;
+    font-size: 20px;
+  }
+  
+  .left_side_div p {
+    text-align: left;
+    font-size: 12px;
+    padding: 8px 0;
+    letter-spacing: 1px;
+  }
+  
+  .social_media_div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  
+  /* ================Right side style=============== */
+  .right_side_div {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dddddd;
+  }
+  
+  .right_div h5 {
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .right_div p {
+    text-align: left;
+    padding: 2px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  /* ===========middle section styles ============ */
+  
+  .middle_parent {
+    width: 70%;
+    padding: 12px 0;
+  }
+  
+  .middle_div {
+    width: 100%;
+    display: flex;
+    color: #dddddd;
+    padding: 2px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  
+  .email_div {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+  .email_div p {
+    margin-left: 4px;
+  }
+  
+  .call_div {
+    width: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 20px;
+  }
+  .call_div p {
+    margin-left: 4px;
+  }
+  
+  .location_div {
+    width: 266px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin-left: 20px;
+  }
+  
+  .location_div p {
+    margin-left: 4px;
   }
 
-.item1{
-    grid-row: 1/2;
-}
+  .location_icon{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  /* =============Last section styles ============= */
+  
+  .last_section {
+    margin-top: 2rem;
+  }
+  
+  .last_section_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 2px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    color: #dddddd;
+  }
+  
+  @media (max-width: 841px) {
+    .footer_Wrapper {
+      margin-top: 3rem;
+    }
+    .footer_section_one_div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left_side_div p {
+      text-align: left;
+    }
+  
+    .social_media_div {
+      width: 35vw;
+      text-align: left;
+      font-size: 20px;
+    }
+  
+    .right_side_div {
+      width: 74%;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .middle_div {
+      width: 60vw;
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .call_div {
+      margin-left: -1px;
+    }
+  
+    .location_div {
+      margin-left: -1px;
+      font-size: 12px;
+    }
+    .last_section_div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .last_section_div span {
+      font-size: 10px;
+      margin-top: 8px;
+    }
+  }

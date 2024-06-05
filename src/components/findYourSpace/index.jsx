@@ -17,12 +17,13 @@ const FindYourSpace = () => {
                 <span>{'- Find your space now!'}</span>
             </div>
             <div className='fys_button'>
-                    <Button style={{
+                    <Button 
+                    style={{
                     borderRadius: '10px',
                     backgroundColor: '#ffffff',
                     color: '#1b2056',
                     padding: '12px 34px',
-                    width: '29%',
+                    width: '29%'
 
 
                 }}btnName='Download app'/>
