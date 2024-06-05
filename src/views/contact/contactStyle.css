@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .contact_container {
+    width: 100%;
+    height: 88vh;
+    background-color: #fcfcfc;
+  }
+  
+  .contact_container > div > h2 {
+    color: #1f4b43;
+    font-size: 2rem;
+  }
+  
+  .form_parent_div {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .form_left_div {
+    width: 40%;
+    margin: 0 auto;
+    height: 98%;
+    background-color: #1f4b43;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #dddddd;
+    padding: 0 1rem;
+  }
+  
+  .contact_title {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  .contact_sub {
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: left;
+  }
+  
+  .fill_call_div {
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
+  
+  .fill_call_div_2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
+  .fill_call_div_3 {
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
+  
+  .fill_call_div_3 p {
+    font-size: 14px !important;
+  }
+  
+  .street {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .center_div {
+    margin-top: 2rem;
+  }
+  
+  .social_form_div {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10rem;
+  }
+  
+  /* =============Form styles=========== */
+  
+  .form_right_div {
+    width: 58%;
+    height: 98%;
+    border-radius: 10px;
+  }
+  
+  .resida_form {
+    width: 100%;
+    margin: 0 auto;
+    height: 98%;
+  }
+  
+  .resida_form input {
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  .resida_first_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .first_form_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 4rem;
+    margin-top: 2rem;
+  }
+  
+  .last_form_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 4rem;
+    margin-top: 2rem;
+  }
+  
+  label {
+    font-size: 12px;
+    padding: 12px 0;
+  }
+  
+  .resida_first_div input::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .check_container {
+    margin-top: 2rem;
+  }
+  
+  .check_container > div > p {
+    text-align: left;
+  
+    padding-left: 1rem;
+    color: #1f4b43;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .input_check_div {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .checks {
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .checks_1 {
+    display: flex;
+    white-space: nowrap;
+  }
+  .checks_2 {
+    display: flex;
+    white-space: nowrap;
+  }
+  .checks_3 {
+    display: flex;
+    white-space: nowrap;
+  }
+  .checks_4 {
+    display: flex;
+    white-space: nowrap;
+  }
+  .label_text {
+    padding-left: 4px;
+    white-space: nowrap;
+  }
+  
+  .area_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+  
+  textarea {
+    width: 88%;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .message_btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    margin-top: 12px;
+  }
+  
+  @media (max-width: 841px) {
+    .contact_wrapper {
+      padding: 1rem 0;
+    }
+  
+    .form_parent_div {
+      width: 80%;
+      flex-direction: column;
+    }
+  
+    .form_left_div {
+      width: 100%;
+      margin-top: 25rem;
+    }
+    input {
+      width: 100%;
+    }
+  
+    .form_right_div {
+      width: 100%;
+    }
+  
+    .first_form_section {
+      width: 100%;
+      flex-direction: column;
+      padding-left: 4px;
+    }
+    .last_form_section {
+      width: 100%;
+      flex-direction: column;
+      padding-left: 4px;
+    }
+  
+  .message_btn {
+      justify-content: center;
+      padding: 1rem 0;
+    }
+    .social_form_div {
+      width: 30%;
+      margin-bottom: 1rem;
+    }
+    .check_container > div > p {
+      margin-left: -1rem;
+    }
+    .input_check_div {
+      width: 99%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -0.1rem;
+    }
+    .area_div {
+      margin-left: -1rem;
+    }
+  }
