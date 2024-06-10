@@ -15,7 +15,7 @@
 .fys_text_section{
     text-align: left;
     justify-content: start;
-    padding-left: 160px;
+    /* padding-left: 160px; */
 }
 
 .fys_image_section img{
@@ -23,7 +23,7 @@
     width: 100%;
     object-fit: cover;
     padding-left: 150px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .fys_text_section div p{
@@ -42,4 +42,58 @@
 
 .fys_button{
     margin-top: 2rem;
+    width: 100%;
+}
+
+@media (max-width: 841px) {
+    .fys_container {
+     flex-direction: column;
+     padding: 2rem, 2rem;
+    }
+    
+    .fys_image_section,
+    .fys_text_section {
+        width: 100%;
+    }
+    
+    .fys_text_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fys_image_section img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-left: -120px;
+    }
+    
+    .fys_text_section div p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        padding-right: 0rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .fys_text_section div span{
+        font-size: 25px;
+    }
+    
+    .fys_text_section div span{
+        font-weight: normal;
+        font-size: 33px;
+        color: #ffffff;
+    }
+    
+    .fys_button{
+        margin-top: 2rem;
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

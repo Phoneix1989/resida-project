@@ -1,6 +1,6 @@
 .os_container {
     width: 100%;
-    height: 568px;
+    /* height: 568px; */
 }
 
 .os_image_section,
@@ -31,4 +31,30 @@
     font-weight: 600;
     font-size: 38px;
     color: #1F4b43
+}
+
+@media (max-width: 841px) {
+    .os_container {
+        flex-direction: column;
+    }
+
+    .os_image_section,
+    .os_text_section {
+        flex-basis: 50%;
+    }
+
+    .os_text_section{
+        text-align: center;
+        justify-content: start;
+        padding-left: -60px;
+    }
+
+    .os_image_section img{
+        height: 450px;
+        width: 450px;
+        padding-left: 60px;
+        padding-top: 80px;
+        margin-left: -140px;
+        align-items: center;
+    }
 }

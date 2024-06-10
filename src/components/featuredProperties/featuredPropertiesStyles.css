@@ -55,3 +55,9 @@
     padding-top: 25px;
     font-weight: 100;
 }
+
+@media (max-width: 841px){
+    /* .box_container {
+        flex-direction: column;
+    } */
+}
