@@ -37,8 +37,16 @@
     margin-bottom: -30px;
 }
 
+.btn_h1{
+    margin-top: 15px;
+}
+
 .get_p{
     margin-bottom: -30px;
+}
+
+.google_p{
+    margin-top: 15px;
 }
 
 .phone_image{

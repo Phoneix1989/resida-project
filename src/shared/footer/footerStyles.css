@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: #dddddd;
+    margin-top: 30px;
   }
   
   .left_side_div h5 {
@@ -65,13 +66,15 @@
     text-align: left;
     color: #fff;
     font-size: 16px;
+  
   }
   
   .right_div p {
     text-align: left;
-    padding: 2px 0;
+    padding: 3px 0;
     font-size: 15px;
     letter-spacing: 1px;
+    margin-top: 1px;
   }
   
   /* ===========middle section styles ============ */
@@ -88,7 +91,7 @@
     padding: 2px 0;
     font-size: 12px;
     letter-spacing: 1px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
   }
   
   .email_div {
@@ -100,6 +103,7 @@
   }
   .email_div p {
     margin-left: 4px;
+    /* margin-bottom: -60px; */
   }
   
   .call_div {
@@ -109,6 +113,7 @@
     align-items: center;
     white-space: nowrap;
     margin-left: 20px;
+    /* margin-bottom: -60px; */
   }
   .call_div p {
     margin-left: 4px;
@@ -125,17 +130,19 @@
   
   .location_div p {
     margin-left: 4px;
+    margin-bottom: -10px;
   }
 
   .location_icon{
     margin-left: 80px;
     margin-top: 10px;
+    /* margin-bottom: -90px; */
   }
   
   /* =============Last section styles ============= */
   
   .last_section {
-    margin-top: 2rem;
+    margin-top: 5px;
   }
   
   .last_section_div {

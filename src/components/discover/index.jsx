@@ -21,7 +21,7 @@ const Discover = () => {
                     padding: " 8px",
                     width: "185px",
                     borderRadius: '10px',
-                    marginTop: '-2rem'
+                    marginTop: '-1px'
                     }}btnName={'Download App'}
                  rightIcon={<GoArrowRight size={22}/>}
                 />

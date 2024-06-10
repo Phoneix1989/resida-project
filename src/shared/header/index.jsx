@@ -49,7 +49,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div>
+        <div className='Da_btn'>
           <Button btnName={"Download App"} outline />
         </div>
       </div>

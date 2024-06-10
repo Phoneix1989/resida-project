@@ -23,7 +23,7 @@ const DownloadApp = () => {
         </div>
         <div className="btn_container">
             <Button
-            leftIcon={<IoLogoApple size={27}
+            leftIcon={<IoLogoApple size={30}
             style={{
                 borderRight: '2px solid grey',
                 paddingRight: '7px'
@@ -42,7 +42,7 @@ const DownloadApp = () => {
              } 
              />
             <Button
-            leftIcon={<FaGooglePlay size={22} 
+            leftIcon={<FaGooglePlay size={26} 
             style={{
                 borderRight: '2px solid grey',
                 paddingRight: '7px'
