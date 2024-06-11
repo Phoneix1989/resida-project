@@ -69,13 +69,21 @@
         /* display: flex; */
         align-items: center;
         justify-content: center;
-        padding-left: -1px;
+        padding: 1rem -30rem;
         margin-top: 90px;
     }
 
     .get_p{
         margin-bottom: -30px;
         text-align: left;
+    }
+
+    .da_text2{
+        font-size: 18px;
+        line-height: 1.5em;
+        /* margin-right: -50px; */
+        padding-right: 60px;
+        
     }
 }
 
