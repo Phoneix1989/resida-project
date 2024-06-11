@@ -42,6 +42,7 @@
 
 .get_p{
     margin-bottom: -30px;
+    text-align: left;
 }
 
 .google_p{
@@ -70,6 +71,11 @@
         justify-content: center;
         padding-left: -1px;
         margin-top: 90px;
+    }
+
+    .get_p{
+        margin-bottom: -30px;
+        text-align: left;
     }
 }
 
