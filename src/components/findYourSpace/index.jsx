@@ -21,12 +21,12 @@ const FindYourSpace = () => {
                     style={{
                     borderRadius: '10px',
                     backgroundColor: '#ffffff',
-                    color: '#1b2056',
-                    padding: '12px 34px',
+                    color: '#0000ff',
+                    padding: '20px 34px',
                     width: '29%'
 
 
-                }}btnName='Download app'/>
+                }}btnNames='Download app'/>
             </div>
         </section>
     </div>

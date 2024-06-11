@@ -18,10 +18,11 @@ const Discover = () => {
                  style={{
                     backgroundColor: '#E7C873',
                     color: '#1A1A1A',
-                    padding: " 8px",
+                    paddingRight: " 8px",
                     width: "185px",
                     borderRadius: '10px',
-                    marginTop: '-1px'
+                    marginLeft: '-10px',
+                    marginBottom: '60px'
                     }}btnName={'Download App'}
                  rightIcon={<GoArrowRight size={22}/>}
                 />

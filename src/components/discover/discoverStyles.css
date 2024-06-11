@@ -15,3 +15,19 @@
     padding: 10px;
     padding-top: 5rem;
 }
+
+@media (max-width: 841px) {
+    .discover_container{
+        height: 100%;
+        width: 150%;
+    }
+
+    .discover_title p{
+        font-size: 25px;
+        color: #ffffff;
+        margin-bottom: 0px;
+        margin-right: 50px;
+
+
+    }
+}

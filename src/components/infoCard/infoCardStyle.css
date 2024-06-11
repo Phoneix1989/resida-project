@@ -62,17 +62,18 @@
 
 
 .infoCard_title {
-    margin: 0px;
+    /* margin: 0px; */
     font-size: 38px;
     font-weight: bold;
     color: #1F4b43;
+    margin-bottom: 20px;
 }
 
 .infoCard_subtitle {
     color: #1F4B43;
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .infoCard_body {
@@ -122,6 +123,7 @@
         /* padding: 0px;
         height: 30vh; */
         /* background-color: orange; */
+        /* flex-direction: column; */
         
     }
 
@@ -129,7 +131,6 @@
         width: 100%;
         height: 200px;
         padding-top: 1rem;
-        /* padding-bottom: 4rem; */
         padding-left: 2rem;
         padding-right: 1rem;
     }

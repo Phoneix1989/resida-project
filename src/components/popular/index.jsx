@@ -11,7 +11,7 @@ const Popular = () => {
   return (
     <div className='popular_container'>
         <div className='popular_text'>
-            <h2>Find homes in popular neighbourhooods</h2>
+            <h2>Find homes in popular neighbourhoods</h2>
             <p>Apartments in Lekki, Obalende, Agege & Yaba </p>
             
           <div className="grid_container">

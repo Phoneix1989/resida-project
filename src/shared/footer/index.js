@@ -20,14 +20,14 @@ const Footer = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
             </p>
-            <div className="social_media_div">
+          </div>
+          <span className="social_media">
               <FaFacebookF />
               <FaXTwitter />
               <FaInstagram />
               <FaLinkedinIn />
               <FaYoutube />
-            </div>
-          </div>
+            </span>
           {/* right side */}
           <div className="right_side_div">
             <div className="right_div">
