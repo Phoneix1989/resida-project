@@ -22,6 +22,14 @@
     justify-content: center;
 } 
 
+.infoCard_comprehensive{
+    width: full;
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 
 .infoCard_description {
     width: full;
@@ -94,6 +102,12 @@
     margin: 0%;
 }
 
+.infoCard_comprehensive_househeight{
+    width: 100%;
+    height: 400px;
+    margin: 0%;
+}
+
 .infoCard_circle {
     width: fit-content;
     gap: 1rem;
@@ -116,14 +130,8 @@
 
 @media (max-width: 841px) {
     .infoCard_inner_container {
-        /* max-width: 75%; 
-        margin: 0px auto;
-        display: grid; */
+        max-width: 100%; 
         grid-template-columns: repeat(1, 1fr);
-        /* padding: 0px;
-        height: 30vh; */
-        /* background-color: orange; */
-        /* flex-direction: column; */
         
     }
 
@@ -159,6 +167,7 @@
     }
 
     .infoCard_subtitle {
+        margin: 0px;
         color: #1F4B43;
         font-size: 18px;
         font-weight: 400;
@@ -185,4 +194,32 @@
         /* background-color: aquamarine; */
 
     }
+
+    .infoCard_comprehensive{
+        width: full;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infoCard_text_guide{
+        width: 85%;
+        height: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 100px; */
+        background: #fcfffc;
+    }
+
+    .infoCard_comprehensive_househeight{
+        width: 100%;
+        height: 350px;
+        /* margin: 0%; */
+        margin-top: 210px;
+
+    }
+
 }

@@ -43,6 +43,7 @@ const LandingPage = () => {
                     so you can find your perfect match effortlessly! 🏡✨"
               imageHeight={'infoCard_comprehensive_imageheight'}
               image={guide_map}
+              imageStyle={"infoCard_comprehensive"}
               button={true}
               infoCardTextStyle={'infoCard_text_guide'}
     />
@@ -53,7 +54,7 @@ const LandingPage = () => {
               body="Own a property in Lagos? Join our platform to effortlessly 
                     list your accommodations and connect with eager tenants seeking their 
                     perfect home in the vibrant city of Lagos."
-              imageHeight={'infoCard_comprehensive_imageheight'}
+              imageHeight={'infoCard_comprehensive_househeight'}
               image={house}
               button={true}
               infoCardTextStyle={'infoCard_text_guide'}
